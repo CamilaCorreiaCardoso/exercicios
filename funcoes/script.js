@@ -50,3 +50,32 @@ function limitarPosicao(posicao) {
 
 }
 console.log(limitarPosicao(100))
+
+//Escreva uma função em JavaScript que realize a conversão de uma temperatura fornecida em graus Fahrenheit (F) para Celsius (C). Dica: para converter uma temperatura em F para C, subtraia 32 da temperatura e multiplique o resultado por 0,5556 (ou 5/9).
+
+//(F - 32 )*(5/9)
+
+function fromFahrenheitToCelsius(fahrenheit){
+   resultado= (fahrenheit - 32) *(5/9)
+    return resultado
+}
+console.log(fromFahrenheitToCelsius(50))
+
+console.log(fromFahrenheitToCelsius(80))
+
+console.log(fromFahrenheitToCelsius(90))
+
+//Escreva uma função que receba como parâmetro o ano em que a pessoa nasceu. Esta função deve calcular a idade da pessoa e depois retornar a idade calculada. Execute esta função e imprima a idade na tela como o exemplo: "Sua idade é: 25 anos".
+
+function anoDeNascimento(ano){
+    let resposta = 2023 - ano
+    return resposta 
+}
+ console.log("Sua idade é: "+ anoDeNascimento(1995)+ " anos") 
+ 
+ console.log("Sua idade é: "+ anoDeNascimento(1916)+ " anos") 
+  
+ console.log("Sua idade é: "+ anoDeNascimento(1954)+ " anos") 
+
+
+
