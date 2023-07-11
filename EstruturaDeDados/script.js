@@ -12,9 +12,11 @@ const sofa= {
 }
  console.log("O material é de " + (sofa.material) +" e na cor "+(sofa.cor))
  console.log(`O material é de ${sofa.material} e na cor ${sofa.cor}`)
-const sofa1 = {
-      material:"seda"
-      cor:"turquesa"
-      quantidadeDeBraco: 4
+console.log(sofa)
+ 
+ const sofa1 = {
+      material:"seda",
+      cor:"turquesa",
+      quantidadeDeBraco: 4,
       disponivelParaVenda: false 
  }
