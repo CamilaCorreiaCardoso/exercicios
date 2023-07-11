@@ -11,3 +11,4 @@ const sofa= {
   
 }
  console.log("O material é de " + (sofa.material) +" e na cor "+(sofa.cor))
+ console.log(`O material é de ${sofa.material} e na cor ${sofa.cor}`)
