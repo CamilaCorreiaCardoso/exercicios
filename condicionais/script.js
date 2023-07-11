@@ -41,3 +41,13 @@ else {
     e = "negativo"
     console.log(e)
 }
+
+//Um número pode ser considerado como par quando o resto da divisão deste número por 2 é 0 (zero). Este mesmo número pode ser considerado como ímpar, quando o resto da divisão deste número por 2 resulta em 1. Faça um programa que verifica se um número é ímpar ou par. Se o número for ímpar, imprima a frase "O número é ímpar". Se o número for par, imprima a frase "O número é par.".
+const numero = 67
+let restoDivisao = numero%2 
+if ( restoDivisao == 1 ) {
+   console.log( "É um número ímpar")
+} else  {
+    console.log("É um número par")
+}
+
