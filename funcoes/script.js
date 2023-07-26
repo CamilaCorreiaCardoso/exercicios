@@ -79,15 +79,15 @@ function anoDeNascimento(ano){
 
 
 //No jogo fotnite o jogador deve ficar dentro da área segura que é um domo que vai diminuindo de tamanho com o tempo. 
-Dependendo de onde o jogador esteja, caso sua posição esteja fora do domo, ele é eliminado da partida, caso ele ainda esteja dentro do domo,
-ele ainda está vivo. Faça uma função que receba três entradas, inicioDomo, fimDomo e posicaoJogador.
-Sendo que todas essas entradas são números inteiros. Caso a posicao do jogador seja maior do que o fim do domo ou menor do que o início do domo, 
-a função deve retornar "Você foi eliminado". 
-Caso a posição do jogador esteja entre o início e o fim do domo, a função deve retornar "Você ainda está na partida".
+//Dependendo de onde o jogador esteja, caso sua posição esteja fora do domo, ele é eliminado da partida, caso ele ainda esteja dentro do domo,
+//ele ainda está vivo. Faça uma função que receba três entradas, inicioDomo, fimDomo e posicaoJogador.
+//Sendo que todas essas entradas são números inteiros. Caso a posicao do jogador seja maior do que o fim do domo ou menor do que o início do domo, 
+//a função deve retornar "Você foi eliminado". 
+//Caso a posição do jogador esteja entre o início e o fim do domo, a função deve retornar "Você ainda está na partida".
 
 function fortnite(inicioDomo, fimDomo, posicaoJogador) {
-    posicaoJogador = fimDomo - inicioDomo
-    if ( posicaoJogador > 100) {
+
+    if ( posicaoJogador > fimDomo|| posicaoJogador < inicioDomo) {
         return "voce foi eliminado"
     }
     else {
@@ -97,6 +97,4 @@ function fortnite(inicioDomo, fimDomo, posicaoJogador) {
 
 }
 
-console.log(fortnite(800, 1000,100))
-
-
+console.log(fortnite(100, 100,40))
