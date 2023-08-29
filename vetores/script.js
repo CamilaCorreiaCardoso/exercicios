@@ -39,3 +39,4 @@ const novalistadelocais=listadelocais.forEach((str,i)=>{
    return str
 })
 console.log("novalistadelocais",novalistadelocais)
+
